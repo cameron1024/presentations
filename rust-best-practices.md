@@ -403,7 +403,7 @@ Trait objects are "slower":
 ## Trait objects do not "infect" with generics
 
 ```rust
-struct Foo 
+struct Foo {
     inner: Box<dyn Trait>,
 }
 ```
